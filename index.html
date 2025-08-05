@@ -90,7 +90,6 @@
             width: 80px;
             height: 80px;
             margin: 0 auto 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border-radius: 20px;
             display: flex;
             align-items: center;
@@ -98,7 +97,6 @@
             font-weight: 700;
             font-size: 2rem;
             animation: pulse 3s ease-in-out infinite;
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
         }
 
         h1 {
@@ -175,6 +173,14 @@
             background: rgba(165, 180, 252, 0.1);
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(165, 180, 252, 0.3);
+        }
+        
+        .logo img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          object-fit: cover;
+          display: block;
         }
 
         /* Efectos de partículas flotantes */
@@ -278,7 +284,7 @@
 
     <div class="container">
         <div class="logo">
-            ⚡
+          <img src="./assets/logo_as.jpg" alt="logo"/>
         </div>
         
         <h1>¡Estamos creando algo increíble!</h1>
